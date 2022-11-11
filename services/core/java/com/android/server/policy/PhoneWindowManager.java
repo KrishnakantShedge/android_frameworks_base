@@ -5907,7 +5907,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 return VibrationEffect.get(VibrationEffect.EFFECT_HEAVY_CLICK);
 
             default:
-                return null;
+                return VibrationEffect.get(VibrationEffect.EFFECT_TICK);
         }
         if (pattern.length == 0) {
             // No vibration

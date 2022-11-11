@@ -563,7 +563,7 @@ public class LockIconViewController extends ViewController<LockIconView> impleme
                     mVibrator.vibrate(
                             Process.myUid(),
                             getContext().getOpPackageName(),
-                            UdfpsController.EFFECT_CLICK,
+                            UdfpsController.EFFECT_TICK,
                             "lock-icon-down",
                             TOUCH_VIBRATION_ATTRIBUTES);
                 }
@@ -650,7 +650,7 @@ public class LockIconViewController extends ViewController<LockIconView> impleme
         mVibrator.vibrate(
                 Process.myUid(),
                 getContext().getOpPackageName(),
-                UdfpsController.EFFECT_CLICK,
+                UdfpsController.EFFECT_TICK,
                 "lock-screen-lock-icon-longpress",
                 TOUCH_VIBRATION_ATTRIBUTES);
 
